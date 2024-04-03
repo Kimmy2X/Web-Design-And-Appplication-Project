@@ -1,0 +1,48 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.main {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+button[type="submit"],
+button[type="reset"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

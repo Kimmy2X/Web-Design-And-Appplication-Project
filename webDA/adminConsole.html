@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+<style>
+    /* Set background color and font color for dark mode */
+    body {
+        background-color: #222;
+        color: #fff;
+    }
+
+    /* Style for the main container */
+    .main {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* Style for the navigation links */
+    .main a {
+        text-decoration: none;
+        color: #fff;
+        /* Change font color to white for dark mode */
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border: 2px solid #fff;
+
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+
+    .main a:hover {
+        background-color: #fff;
+
+        color: #333;
+    }
+
+    /* Active link style */
+    .main a.active {
+        background-color: #fff;
+        color: #333;
+
+    }
+</style>
+
+<body>
+    <div class="main">
+        <a href="userList.php">User List</a>
+        <a href="gameList.php">Game List</a>
+
+
+    </div>
+    <div class="main">
+        <br>
+        <a href="login.php">Logout</a>
+    </div>
+
+</body>
+
+</html>
